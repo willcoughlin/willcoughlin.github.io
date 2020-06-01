@@ -1,0 +1,18 @@
+- title: Bitcoin Price-Sentiment Simple Linear Regression
+  date: Oct. 2018
+  description: > 
+    Using data collected for the Cryptocurrency Sentiment Index project, I performed a linear regression analysis 
+    on Bitcoin sentiment and price data from a period of 31 days. A hypothesis test intended to prove the existence
+    of a positive relationship between sentiment and price failed to yield a significant result. In order to see the 
+    results we were expecting, the linear model could be improved by increasing the number of observations or tuning 
+    our text classifier.
+  links:
+    - icon: python 
+      text: View Jupyter Notebook
+      href: 'https://nbviewer.jupyter.org/github/willcoughlin/ccsi/blob/master/analysis/Bitcoin Sentiment-Price Correlation.ipynb'
+  tags:
+    - Python
+    - Jupyter
+    - SciPy
+    - Linear Regression
+    - Cryptocurrency
