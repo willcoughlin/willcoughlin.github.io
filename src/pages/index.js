@@ -1,8 +1,8 @@
 import React from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
-import ProjectData from '../../content/projects.yaml'
+import ProjectData from '../../content/projects.yaml';
 import Project from '../components/Project';
 
 library.add(fab);
