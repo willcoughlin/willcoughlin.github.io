@@ -15,6 +15,12 @@ export default function Home() {
         <h1 className="text-brand">Will Coughlin</h1>
         <p>Full-stack developer working in payments tech. Interested in cloud, web development, and data science.</p>
       </header>
+      
+      <section id="projects">
+        <h1>Stuff I've Worked On</h1>
+        {ProjectData.map((data, i) => <Project key={i} {...data} />)}
+      </section>
+      
       <section id="about">
         <h1>About</h1>
         <p>
@@ -24,10 +30,7 @@ export default function Home() {
           experience (split up over three semesters) working as a .NET developer for the University.
         </p>
       </section>
-      <section id="projects">
-        <h1>Stuff I've Worked On</h1>
-        {ProjectData.map((data, i) => <Project key={i} {...data} />)}
-      </section>
+
       <footer>
         <small>
           &copy; {new Date().getFullYear()} Will Coughlin&nbsp;&nbsp;&bull;&nbsp;&nbsp;
