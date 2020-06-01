@@ -8,10 +8,10 @@ export default function Project(props) {
     <article>
       <header>
         <h1>{props.title}</h1>
-        <time>{props.date}</time>
+        <time>{props.date || ''}</time>
       </header>
       {props.description.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-      <ProjectLinks links={props.links} />
+      {props.links ? <ProjectLinks links={props.links} /> : null}
       <FlexTags tags={props.tags} />
     </article>
   );
