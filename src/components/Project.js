@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectLinks from './ProjectLinks';
+import FlexTags from './FlexTags';
 
 export default function Project(props) {
   return (
@@ -8,10 +9,7 @@ export default function Project(props) {
       <time>{props.date}</time>
       <p>{props.description}</p>
       <ProjectLinks links={props.links} />
-      {/* TODO: pull tags into a component like project links */}
-      <ul>
-        {props.tags.map((tag, i) => <li key={i}><span>{tag}</span></li>)}
-      </ul>
+      <FlexTags tags={props.tags} />
     </article>
   );
 } 

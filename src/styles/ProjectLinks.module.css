@@ -1,5 +1,6 @@
 .projectLinks {
   list-style: none;
+  margin-left: unset;
 }
   .projectLinks li {
     margin-bottom: unset;
