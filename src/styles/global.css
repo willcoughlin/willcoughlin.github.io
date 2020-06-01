@@ -54,22 +54,24 @@ body {
   border-radius: 0.5rem;
   border: 0.1rem solid rgba(64, 66, 77, 0.1);
 }
-  .sheet header {
-    text-align: center;
-  }
-    .sheet header h1 {
-      margin-top: unset;
-      font-size: 4rem;
-    }
 
-  .sheet section {
-    border-bottom: 0.1rem solid rgba(64, 66, 77, 0.1);
+.sheet header, .sheet section {
+  border-bottom: 0.1rem solid rgba(64, 66, 77, 0.1);
+}
+  
+.sheet header {
+  text-align: center;
+}
+  .sheet header h1 {
+    margin-top: unset;
+    font-size: 4rem;
   }
-    .sheet section h1 {
-      font-size: 1.5rem;
-    }
 
-  .sheet article h1 {
+  .sheet section h1 {
+    font-size: 1.5rem;
+  }
+
+  .sheet section article h1 {
     font-size: 1.17rem;
   }
 
