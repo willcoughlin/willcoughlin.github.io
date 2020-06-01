@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectLink from './ProjectLink';
+import ProjectLinks from './ProjectLinks';
 
 export default function Project(props) {
   return (
@@ -7,11 +7,10 @@ export default function Project(props) {
       <h1>{props.title}</h1>
       <time>{props.date}</time>
       <p>{props.description}</p>
+      <ProjectLinks links={props.links} />
+      {/* TODO: pull tags into a component like project links */}
       <ul>
-        {props.links.map((data, i) => <li><ProjectLink key={i} {...data} /></li>)}
-      </ul>
-      <ul>
-        {props.tags.map(tag => <li><span>{tag}</span></li>)}
+        {props.tags.map((tag, i) => <li key={i}><span>{tag}</span></li>)}
       </ul>
     </article>
   );

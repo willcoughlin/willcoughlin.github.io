@@ -9,9 +9,9 @@ library.add(fab);
 
 export default function Home() {
   return (
-    <>
+    <div className="sheet">
       <header>
-        <h1>Will Coughlin</h1>
+        <h1 className="text-brand">Will Coughlin</h1>
         <p>Full-stack developer working in payments tech. Interested in cloud, web development, and data science.</p>
       </header>
       <section>
@@ -27,6 +27,6 @@ export default function Home() {
         <h1>Stuff I've Worked On</h1>
         {ProjectData.map((data, i) => <Project key={i} {...data} />)}
       </section>
-    </>
+    </div>
   );
 }

@@ -10,6 +10,7 @@
     - icon: python 
       text: View Jupyter Notebook
       href: 'https://nbviewer.jupyter.org/github/willcoughlin/ccsi/blob/master/analysis/Bitcoin Sentiment-Price Correlation.ipynb'
+      
   tags:
     - Python
     - Jupyter
