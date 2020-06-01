@@ -1,16 +1,41 @@
+- title: Cryptocurrency Sentiment Index
+  date: May 2018 - Apr. 2020
+  description:
+    - > 
+      I created this project to visualize the relationship between a cryptocurrency's sentiment and its price. A set of 
+      Python scripts periodically collect tweets matching basic keywords about the top 20 cryptocurrencies by volume, and
+      gets a rudimentary polarity score based on the contents of the Tweet. 
+    - > 
+      With a web frontend built with React, users can view price and sentiment summaries for the top currencies and 
+      visualize the correlation of the two metrics on a chart. This application makes API calls to a simple Python application built with Flask.
+  links:
+    - icon: link
+      iconSet: fas
+      text: Visit Site
+      href: ''
+  tags:
+    - JavaScript
+    - React
+    - Python
+    - Flask
+    - NoSQL
+    - Sentiment Analysis
+    - Cryptocurrency
+
 - title: Bitcoin Price-Sentiment Simple Linear Regression
   date: Oct. 2018
-  description: > 
-    Using data collected for the Cryptocurrency Sentiment Index project, I performed a linear regression analysis 
-    on Bitcoin sentiment and price data from a period of 31 days. A hypothesis test intended to prove the existence
-    of a positive relationship between sentiment and price failed to yield a significant result. In order to see the 
-    results we were expecting, the linear model could be improved by increasing the number of observations or tuning 
-    our text classifier.
+  description: 
+    - > 
+      Using data collected for the Cryptocurrency Sentiment Index project, I performed a linear regression analysis 
+      on Bitcoin sentiment and price data from a period of 31 days. A hypothesis test intended to prove the existence
+      of a positive relationship between sentiment and price failed to yield a significant result. In order to see the 
+      results we were expecting, the linear model could be improved by increasing the number of observations or tuning 
+      our text classifier.
   links:
-    - icon: python 
+    - icon: python
+      iconSet: fab 
       text: View Jupyter Notebook
       href: 'https://nbviewer.jupyter.org/github/willcoughlin/ccsi/blob/master/analysis/Bitcoin Sentiment-Price Correlation.ipynb'
-      
   tags:
     - Python
     - Jupyter
