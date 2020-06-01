@@ -1,5 +1,5 @@
 import React from 'react';
-import flexTagsStyles from '../styles/FlexTags.module.css';
+import '../styles/FlexTags.module.css';
 
 // Single tag component
 function FlexTag(props) {
@@ -9,7 +9,7 @@ function FlexTag(props) {
 // FlexTags component - Flex container for tags
 export default function FlexTags(props) {
   return (
-    <div className={flexTagsStyles.flexTags}>
+    <div>
       {props.tags.map((tag, i) => <FlexTag id={i} tag={tag} />)}
     </div>
   );

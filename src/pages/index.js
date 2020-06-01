@@ -1,11 +1,12 @@
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 import ProjectData from '../../content/projects.yaml';
 import Project from '../components/Project';
 
-library.add(fab);
+library.add(fab, faLink);
 
 export default function Home() {
   return (

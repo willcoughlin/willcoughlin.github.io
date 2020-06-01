@@ -1,7 +1,7 @@
-.projectLinks {
+ul {
   list-style: none;
   margin-left: unset;
 }
-  .projectLinks li {
-    margin-bottom: unset;
+  ul li {
+    margin-bottom: 0.5em;
   }

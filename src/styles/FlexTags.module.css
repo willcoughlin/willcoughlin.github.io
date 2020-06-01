@@ -1,4 +1,4 @@
-.flexTags {
+div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6,7 +6,7 @@
   margin-bottom: 1.45rem;
 }
 
-.flexTags small {
+div small {
   background-color: #c99546;
   color: #f8f8f8;
   padding: 0.1rem 0.5rem;
