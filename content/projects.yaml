@@ -12,7 +12,12 @@
     - icon: link
       iconSet: fas
       text: Visit Site
-      href: ''
+      href: 'https://ccsi.mybluemix.net/'
+
+    - icon: github
+      iconSet: fab
+      text: View Repository
+      href: 'https://github.com/willcoughlin/ccsi'
   tags:
     - JavaScript
     - React
@@ -42,3 +47,61 @@
     - SciPy
     - Linear Regression
     - Cryptocurrency
+
+- title: Private OpenStack Cloud
+  description:
+    - >
+      As part of my experience in my Cloud Computing course, I worked on a team to deploy a private OpenStack cloud. 
+      On an existing OpenStack deployment, we created a virtual infrastructure on which to deploy our own cloud, 
+      consisting of multiple RHEL nodes, virtual networking, routing, and security. With the infrastructure in place, we 
+      used Docker with Kolla-Ansible to orchestrate our deployment. 
+  tags:
+    - OpenStack
+    - RHEL
+    - Docker
+    - Ansible
+    - Virtualization
+    - Networking
+
+- title: Album Shuffle Mode for Shuttle Music Player
+  date: Oct. 2017
+  description: 
+    - >
+      In response to a community-request for album shuffle mode, I submitted a pull request to the Shuttle Github 
+      repo. This pull request was accepted and merged, providing the ability for users to shuffle by album rather
+      than individual song.
+  links:
+    - icon: github
+      iconSet: fab
+      text: View Pull Request
+      href: 'https://github.com/timusus/Shuttle/pull/201'
+
+    - icon: google-play
+      iconSet: fab
+      text: View Shuttle Music Player on Google Play
+      href: 'https://play.google.com/store/apps/details?id=another.music.player'
+  tags:
+    - Java
+    - Android
+    - Open Source
+
+- title: AUFoodTrax
+  date: Jan. 2017 - Feb. 2017
+  description: 
+    - > 
+      AUFoodTrax was an Android app for crowdsourcing reports of food truck locations on Auburn's campus. The app 
+      consisted of an interactive map for easy reporting and locating of trucks. Backing the app was a Spring Framework
+      REST service and a MongoDB instance, both living in Microsoft Azure. 
+  links:
+    - icon: github
+      iconSet: fab
+      text: View Repository
+      href: 'https://github.com/willcoughlin/AUFoodTrax'
+  tags:
+      - Java
+      - Android
+      - Google Maps
+      - Spring
+      - MongoDB
+      - NoSQL
+      - Azure
