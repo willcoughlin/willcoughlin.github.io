@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="text-brand">Will Coughlin</h1>
         <p>Full-stack developer working in payments tech. Interested in cloud, web development, and data science.</p>
       </header>
-      <section>
+      <section id="about">
         <h1>About</h1>
         <p>
           I live in Auburn, AL and work as a developer for Fullsteam, a locally-based payments software company. 
@@ -24,10 +24,16 @@ export default function Home() {
           experience (split up over three semesters) working as a .NET developer for the University.
         </p>
       </section>
-      <section>
+      <section id="projects">
         <h1>Stuff I've Worked On</h1>
         {ProjectData.map((data, i) => <Project key={i} {...data} />)}
       </section>
+      <footer>
+        <small>
+          &copy; {new Date().getFullYear()} Will Coughlin&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+          Powered by <a href="https://gatsbyjs.org">Gatsby</a>
+        </small>
+      </footer>
     </div>
   );
 }

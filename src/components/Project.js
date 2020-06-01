@@ -6,8 +6,10 @@ import '../styles/Project.module.css';
 export default function Project(props) {
   return (
     <article>
-      <h1>{props.title}</h1>
-      <time>{props.date}</time>
+      <header>
+        <h1>{props.title}</h1>
+        <time>{props.date}</time>
+      </header>
       {props.description.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
       <ProjectLinks links={props.links} />
       <FlexTags tags={props.tags} />
