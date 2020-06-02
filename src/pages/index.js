@@ -1,27 +1,37 @@
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import ProjectData from '../../content/projects.yaml';
 import Project from '../components/Project';
 
-library.add(fab, faLink);
+library.add(fab, faLink, faEnvelope);
 
 export default function Home() {
   return (
     <div className="sheet">
       <header>
         <h1 className="text-brand">Will Coughlin</h1>
+        {/* TODO: get this content from a yaml file */}
         <p>Full-stack developer working in payments tech. Interested in cloud, web development, and data science.</p>
       </header>
       
+      {/* TODO: pull into separate components */}
+      <section id="contact">
+        <a href="mailto:willcoughlin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="https://github.com/willcoughlin"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+        <a href="https://linkedin.com/in/coughlinwf"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+      </section>
+
       <section id="projects">
         <h1>Stuff I've Worked On</h1>
         {ProjectData.map((data, i) => <Project key={i} {...data} />)}
       </section>
       
       <section id="about">
+        {/* TODO: get this content from a yaml file */}
         <h1>About</h1>
         <p>
           I live in Auburn, AL and work as a developer for Fullsteam, a locally-based payments software company. 
