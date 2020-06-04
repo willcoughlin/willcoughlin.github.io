@@ -1,3 +1,61 @@
+- title: Code-First DynamoDB
+  date: Jan. 2020 - Feb. 2020
+  description:
+    - >
+      While working on another project, I found no suitable option for creating DynamoDB tables from Java entity classes.
+      This tool takes care of generating the tables on your AWS console, provided annotated classes.
+  links:
+    - icon: github
+      iconSet: fab
+      text: View Repository
+      href: 'https://github.com/willcoughlin/cfdynamo'
+  tags:
+    - Java
+    - AWS
+    - DynamoDB
+
+- title: CoinToss
+  date: Jun. 2019
+  description: 
+    - >
+      A real-time two player coin toss game built utilizing WebSockets.
+  links:
+    - icon: github
+      iconSet: fab
+      text: View Repository
+      href: 'https://github.com/willcoughlin/cointoss'
+
+    - icon: link
+      iconSet: fas
+      text: Visit Site
+      href: 'http://cointoss.wfcv.xyz/'
+  tags:
+    - TypeScript
+    - React
+    - Express
+    - Socket.IO
+
+- title: Bitcoin Price-Sentiment Simple Linear Regression
+  date: Oct. 2018
+  description: 
+    - > 
+      Using data collected for the Cryptocurrency Sentiment Index project, I performed a linear regression analysis 
+      on Bitcoin sentiment and price data from a period of 31 days. A hypothesis test intended to prove the existence
+      of a positive relationship between sentiment and price failed to yield a significant result. In order to see the 
+      results we were expecting, the linear model could be improved by increasing the number of observations or tuning 
+      our text classifier.
+  links:
+    - icon: python
+      iconSet: fab 
+      text: View Jupyter Notebook
+      href: 'https://nbviewer.jupyter.org/github/willcoughlin/ccsi/blob/master/analysis/Bitcoin Sentiment-Price Correlation.ipynb'
+  tags:
+    - Python
+    - Jupyter
+    - SciPy
+    - Linear Regression
+    - Cryptocurrency
+
 - title: Cryptocurrency Sentiment Index
   date: May 2018 - Apr. 2020
   description:
@@ -25,27 +83,6 @@
     - Flask
     - NoSQL
     - Sentiment Analysis
-    - Cryptocurrency
-
-- title: Bitcoin Price-Sentiment Simple Linear Regression
-  date: Oct. 2018
-  description: 
-    - > 
-      Using data collected for the Cryptocurrency Sentiment Index project, I performed a linear regression analysis 
-      on Bitcoin sentiment and price data from a period of 31 days. A hypothesis test intended to prove the existence
-      of a positive relationship between sentiment and price failed to yield a significant result. In order to see the 
-      results we were expecting, the linear model could be improved by increasing the number of observations or tuning 
-      our text classifier.
-  links:
-    - icon: python
-      iconSet: fab 
-      text: View Jupyter Notebook
-      href: 'https://nbviewer.jupyter.org/github/willcoughlin/ccsi/blob/master/analysis/Bitcoin Sentiment-Price Correlation.ipynb'
-  tags:
-    - Python
-    - Jupyter
-    - SciPy
-    - Linear Regression
     - Cryptocurrency
 
 - title: Private OpenStack Cloud
