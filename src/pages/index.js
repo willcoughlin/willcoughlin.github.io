@@ -17,14 +17,13 @@ export default function Home() {
         <h1 className="text-brand">Will Coughlin</h1>
         {/* TODO: get this content from a yaml file */}
         <p>Full-stack developer working in payments tech. Interested in cloud, web development, and data science.</p>
+        {/* TODO: pull into separate components */}
+        <div id="contact">
+          <a href="mailto:willcoughlin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+          <a href="https://github.com/willcoughlin"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+          <a href="https://linkedin.com/in/coughlinwf"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+        </div>
       </header>
-      
-      {/* TODO: pull into separate components */}
-      <section id="contact">
-        <a href="mailto:willcoughlin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-        <a href="https://github.com/willcoughlin"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-        <a href="https://linkedin.com/in/coughlinwf"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-      </section>
 
       <section id="projects">
         <h1>Stuff I've Worked On</h1>

@@ -67,16 +67,6 @@ a {
     .sheet section article h1 {
       font-size: 1.17rem;
     }
-
-/* TODO: pull this to module css when elements are refactored into component */
-.sheet #contact {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-}
-  .sheet #contact a {
-    margin-right: 0.75rem;
-  }
     
 .sheet footer {
 padding-top: 1.45rem;
@@ -88,6 +78,17 @@ padding-top: 1.45rem;
       margin-top: unset;
       font-size: 4rem;
     }
+    .sheet header p {
+      margin-bottom: 0.5rem;
+    }
+    .sheet header #contact {
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+      .sheet header #contact a {
+        margin-right: 0.75rem;
+      }
 
 .text-brand {
   color: #99afbe;
