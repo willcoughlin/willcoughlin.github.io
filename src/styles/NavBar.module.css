@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+} 
+.sticky {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fbfbfb;
+  border-bottom: 0.1rem solid rgba(64, 66, 77, 0.1);
+}
+  nav a:not(:last-child){
+    margin-right: 0.75rem;
+  }
+
+  nav h1 {
+    margin: 0; 
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+  }
