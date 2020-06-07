@@ -42,7 +42,7 @@ export default class Home extends React.Component {
                 <span className="flex-spacer"></span>
                 <a href="#projects">Stuff I've Worked On</a>
                 <a href="#about">About Me</a>
-                <a href="#">My Resume</a>
+                {/* <a href="#">My Resume</a> */}
               </NavBar>
             : null
         }
@@ -63,7 +63,7 @@ export default class Home extends React.Component {
           <NavBar ref={this.navBarRef}>
             <a href="#projects">Stuff I've Worked On</a>
             <a href="#about">About Me</a>
-            <a href="#">My Resume</a>
+            {/* <a href="#">My Resume</a> */}
           </NavBar>
   
           <section id="projects">
