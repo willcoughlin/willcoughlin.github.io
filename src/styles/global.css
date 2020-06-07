@@ -53,12 +53,13 @@ a {
 
 .sheet {
   margin: 3rem 3rem;
-  padding: 2rem 2rem 1rem 1.45rem;
+  /* padding: 2rem 2rem 1rem 1.45rem; */
+  padding: 2rem 2rem 1rem 2rem;
   background-color: #fbfbfb;
   border-radius: 0.5rem;
   border: 0.1rem solid rgba(64, 66, 77, 0.1);
 }
-  .sheet > header, .sheet section {
+  .sheet > header, .sheet section, .sheet nav {
     border-bottom: 0.1rem solid rgba(64, 66, 77, 0.1);
   }
     .sheet section h1 {
@@ -67,7 +68,7 @@ a {
     .sheet section article h1 {
       font-size: 1.17rem;
     }
-    
+
 .sheet footer {
 padding-top: 1.45rem;
 }
@@ -92,4 +93,8 @@ padding-top: 1.45rem;
 
 .text-brand {
   color: #99afbe;
+}
+
+.flex-spacer {
+  flex-grow: 1;
 }
