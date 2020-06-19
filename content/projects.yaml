@@ -8,7 +8,7 @@
     - icon: github
       iconSet: fab
       text: View Repository
-      href: 'https://github.com/willcoughlin/cfdynamo'
+      href: 'https://github.com/willcoughlin/code-first-dynamodb'
   tags:
     - Java
     - AWS
@@ -75,7 +75,7 @@
     - icon: github
       iconSet: fab
       text: View Repository
-      href: 'https://github.com/willcoughlin/ccsi'
+      href: 'https://github.com/willcoughlin/cryptocurrency-sentiment-index'
   tags:
     - JavaScript
     - React
