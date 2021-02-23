@@ -51,7 +51,7 @@ export default class Home extends React.Component {
           <header>
             <h1 className="text-brand">Will Coughlin</h1>
             {/* TODO: get this content from a yaml file */}
-            <p>Full-stack developer working in payments tech. Interested in cloud, web development, and data science.</p>
+            <p>Full-stack developer working in payments. Interested in cloud, web development, finance, and data science.</p>
             {/* TODO: pull into separate components */}
             <div id="contact">
               <a href="mailto:willcoughlin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
