@@ -11,12 +11,18 @@
   html {
     font-size: 0.75rem;
   }
+  .sheet {
+    margin: 1rem 2rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   html {
     font-size: 0.875rem;
+  }
+  .sheet {
+    margin: 1rem 2rem;
   }
 }
 
@@ -25,6 +31,9 @@
   html {
     font-size: 1rem;
   }
+  .sheet {
+    margin: 1rem 5rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -32,12 +41,18 @@
   html {
     font-size: 1.125rem;
   }
+  .sheet {
+    margin: 2rem 7rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 1.25rem;
+  }
+  .sheet {
+    margin: 2rem 10rem;
   }
 } 
 
@@ -52,7 +67,6 @@ a {
 }
 
 .sheet {
-  margin: 3rem 3rem;
   /* padding: 2rem 2rem 1rem 1.45rem; */
   padding: 2rem 2rem 1rem 2rem;
   background-color: #fbfbfb;
@@ -97,4 +111,11 @@ padding-top: 1.45rem;
 
 .flex-spacer {
   flex-grow: 1;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 1.5rem;
+  margin: -1.5rem 0 0;
 }
