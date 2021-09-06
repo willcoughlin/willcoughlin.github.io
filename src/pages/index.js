@@ -51,7 +51,9 @@ export default class Home extends React.Component {
           <header>
             <h1 className="text-brand">Will Coughlin</h1>
             {/* TODO: get this content from a yaml file */}
-            <p>Full-stack developer working in payments. Interested in cloud, web development, finance, and data science.</p>
+            <p>
+              Full-stack Java developer working in the energy industry. Interested in web development, API design and databases.
+            </p>
             {/* TODO: pull into separate components */}
             <div id="contact">
               <a href="mailto:willcoughlin@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
@@ -75,10 +77,10 @@ export default class Home extends React.Component {
             {/* TODO: get this content from a yaml file */}
             <h1>About</h1>
             <p>
-              I live in Auburn, AL and work as a developer for Fullsteam, a locally-based payments software company. 
-              Before graduating from Auburn University in December 2019 with a B.S. in Computer Science, I interned at Visa 
-              in Austin where I worked in the Digital and Developer Platform organization. I also gained a year of 
-              experience (split up over three semesters) working as a .NET developer for the University.
+              I live in the Twin Cities area and work as a Software Developer for MISO, a Regional Transmission 
+              Organization. My current technical work involves Java, Spring Framework, and complementary technology 
+              like Hibernate and Docker. I have previous professional experience in the payments industry and with 
+              ASP.NET Core and the Microsoft stack.
             </p>
           </section>
   
