@@ -41,4 +41,3 @@ url = "/projects"
 [markup]
 [markup.highlight]
 style = 'algol'
-
