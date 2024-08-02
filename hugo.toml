@@ -1,3 +1,43 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Will Coughlin'
+theme = 'typo'
+
+[params]
+# Appearance settings
+theme = 'auto'
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'About Me'
+homeIntroContent = """
+I am a full-stack developer and data science student working in the energy industry. My current technical work involves 
+Java, Kotlin, Spring Framework, and technology like Docker and Microsoft Azure. 
+
+In my graduate studies, I have aquired project experience with Python, R, and machine learning. Take a look at my projects page for some highlights!
+"""
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/coughlinwf/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/willcoughlin"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
