@@ -1,7 +1,8 @@
 ---
 title: "Projects"
-hideBackToTop: false
-hidePagination: true
+cascade:
+  build:
+    list: "never"
 ---
 
 ### [>> Predicting Power Grid Abnormalities](/projects/grid)
@@ -9,4 +10,5 @@ hidePagination: true
 ___
 
 ### [>> OptionAlly](/projects/optionally)
-[![](/images/OptionAllyHome.png)]((/projects/optionally))
+[![](/images/OptionAllyHome.png)](/projects/optionally)
+

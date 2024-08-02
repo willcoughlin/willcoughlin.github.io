@@ -1,7 +1,5 @@
 ---
 title: "Predicting Power Grid Abnormalities"
-hideBackToTop: false
-hidePagination: true
 ---
 
 ![](/images/GridAbnorm.png)

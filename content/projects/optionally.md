@@ -1,7 +1,5 @@
 ---
 title: "Optionally"
-hideBackToTop: false
-hidePagination: true
 ---
 
 ![](/images/OptionAllyHome.png)
