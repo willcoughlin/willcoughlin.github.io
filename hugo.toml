@@ -17,7 +17,7 @@ In my graduate studies, I have aquired project experience with Python, R, and ma
 """
 
 # Breadcrumbs
-breadcrumbs = false
+breadcrumbs = true
 
 # Social icons
 [[params.social]]
