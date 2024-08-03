@@ -8,7 +8,7 @@ theme = 'typo'
 theme = 'auto'
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'About Me'
+homeIntroTitle = ''
 homeIntroContent = """
 I am a full-stack developer and data science student working in the energy industry. My current technical work involves 
 Java, Kotlin, Spring Framework, and technology like Docker and Microsoft Azure. 
