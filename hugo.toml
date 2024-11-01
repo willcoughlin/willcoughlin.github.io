@@ -10,10 +10,12 @@ theme = 'auto'
 # Intro on main page, content is markdown
 homeIntroTitle = ''
 homeIntroContent = """
-I am a full-stack developer and data science student working in the energy industry. My current technical work involves 
-Java, Kotlin, Spring Framework, and technology like Docker and Microsoft Azure. 
+I am a software engineer and data science student working in the energy industry. My current technical work involves supporting and developing 
+tools for CI/CD and code quality. I most commonly find myself working with tools like GitHub Actions, Docker, and Terraform; and languages 
+including Java, Kotlin, and JavaScript.
 
-In my graduate studies, I have aquired project experience with Python, R, and machine learning. Take a look at my projects page for some highlights!
+In my graduate studies, I have aquired project experience with Python, R, machine learning, and data pipelines. Take a look at my projects 
+page for some highlights!
 """
 
 # Breadcrumbs
