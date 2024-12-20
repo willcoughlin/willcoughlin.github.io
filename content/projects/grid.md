@@ -4,7 +4,7 @@ title: "Predicting Power Grid Abnormalities"
 
 ![](/images/GridAbnorm.png)
 
-[Project Repository](https://github.com/willcoughlin/dmsl-project) | [Report (PDF)](/ISYE7406-Group50-ProjectReport.pdf)
+[Project Repository](https://github.com/willcoughlin/dmsl-project) | [Report (PDF)](/GridAbnormalities-Report.pdf)
 
 This project for Georgia Tech's Data Mining course involved the prediction of abnormal grid conditon occurrences using public archive data from ISO-NE. I trained and evaluated several binary classification models, producing an XGBoost model and a Support Vector Machine model that perform reasonably well in predicting these occurrences. 
 

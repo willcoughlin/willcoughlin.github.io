@@ -5,6 +5,9 @@ cascade:
     list: "never"
 ---
 
+### [>> BasketRadar](/projects/basketradar)
+[![](/images/BasketRadar.png)](/projects/basketradar)
+
 ### [>> Predicting Power Grid Abnormalities](/projects/grid)
 [![](/images/GridAbnorm.png)](/projects/grid)
 ___
